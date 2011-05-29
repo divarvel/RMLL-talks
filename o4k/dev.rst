@@ -1,6 +1,6 @@
-:Description: Le cercle vertueux de la participation d'étudiants à des projets libres
-:Author: Clément Delafargue <clement@delafargue.name>
-:Author: Benjamin Vialle <benjamin@vialle.eu>
+:Info: Le cercle vertueux de la participation d'étudiants à des projets libres
+:Auteur: Clément Delafargue <clement@delafargue.name>
+:Auteur: Benjamin Vialle <benjamin@vialle.eu>
 :Revision: $Revision: 2 $
 :Date: $Date: 9-14 juillet 2011 $
 
@@ -26,9 +26,9 @@ OpenOffice.org / OpenOffice4Kids
   - Amélioration d'OpenOffice.org Impress pour les Tablet-PCs
 
 - OOo4Kids :
-  * un logiciel de bureautique libre et gratuit pour les 7-12 ans basé sur les
-    sources du logiciel OpenOffice.org volontairement très simplifié et adapté
-    aux programmes d'enseignement.
+   un logiciel de bureautique libre et gratuit pour les 7-12 ans basé sur les
+   sources du logiciel OpenOffice.org volontairement très simplifié et adapté
+   aux programmes d'enseignement.
 
 
 Le module annotations d'Impress
@@ -41,10 +41,16 @@ Dans les épisodes précédents
   - Ajout d'une fonction Gomme
   - Choix de la couleur / taille du crayon
 
+.. figure:: images/screenshot_021.png
+   :width: 1200px
+
 Notre projet
 --------------------------------------------------------------------------------
 - Ajouter un mode de fonctionnement (le mode curseur)
 - Rendre le code plus extensible (avoir la possibilité d'autres modes)
+
+.. figure:: images/screenshot_020.png
+   :width: 1200px
 
 En détail
 --------------------------------------------------------------------------------
@@ -60,15 +66,34 @@ Cadre technique
 
 Méthodes de modélisation
 --------------------------------------------------------------------------------
+Workflow proche de la programmation agile (XP Programming)
+
+* Écriture d'un cahier des charges 
+* Retours réguliers avec le client (mentor technique)
+* itérations rapides (une semaine)
 
 Démarche de développement
 --------------------------------------------------------------------------------
+?
+
+.. figure:: images/libreoffice_sd.png
+   :width: 1200px
+
 
 Contraintes de génie logiciel
 --------------------------------------------------------------------------------
 
+?
+
 Procédure de documentation
 --------------------------------------------------------------------------------
+
+* Utilisation du wiki d'OpenOffice4Kids pour avoir une base de documentation et
+  la compléter
+
+* Documentation en anglais
+
+.. http://wiki.ooo4kids.org/index.php/User:Bvialle
 
 Assurance qualité
 --------------------------------------------------------------------------------
@@ -87,7 +112,7 @@ Morgan Magnin, E/C à l'École Centrale de Nantes.
 
 Mentor technique
 --------------------------------------------------------------------------------
-Éric Bachard, à l'UTBM
+Éric Bachard, professeur à l'UTBM
 
 - Réunion sur IRC une fois par semaine
 - Détails techniques
