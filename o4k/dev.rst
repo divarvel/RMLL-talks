@@ -1,11 +1,11 @@
-:Info: Le cercle vertueux de la participation d'étudiants à des projets libres
+:Info: Développement du module d’annotation dans Office Impress
 :Auteur: Clément Delafargue <clement@delafargue.name>
 :Auteur: Benjamin Vialle <benjamin@vialle.eu>
 :Revision: $Revision: 2 $
 :Date: $Date: 9-14 juillet 2011 $
 
 ================================================================================
-Le cercle vertueux de la participation d'étudiants à des projets libres
+Développement du module d’annotation dans Office Impress
 ================================================================================
 
 L'École Centrale de Nantes et le Libre
