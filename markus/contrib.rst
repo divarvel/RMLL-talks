@@ -12,6 +12,18 @@ Contribution des Étudiants de l'École Centrale de Nantes à MarkUs, un projet 
 
 .. contents::
 
+.. RAPPEL
+
+.. MarkUs [1] est une application web écrite en Ruby on Rails destinée à
+.. l'évaluation du code source produit lors des TPs d'informatique, en classe.
+.. MarkUs a été découvert lors des stages ingénieurs de deux étudiants à
+.. l'Université de Toronto, au Canada. Depuis janvier 2010, plusieurs élèves de
+.. l'École Centrale de Nantes ont travaillé sur des projets académiques visant
+.. d'une part à adapter le logiciel aux spécificités du système universitaire
+.. français, d'autre part à l'enrichir de nouvelles fonctionnalités. Plusieurs de
+.. ces projets se sont enchaînés, effectués en binôme ou par groupe de 6 élèves
+.. pendant 3 mois.
+
 L'École Centrale de Nantes et le Libre
 ================================================================================
 
@@ -32,7 +44,7 @@ MarkUs
 
 .. Très rapide
 
-Constat 
+Constat
 --------------------------------------------------------------------------------
 
 Comment gérer et évaluer efficacement les travaux des étudiants en TP/Projet ?
@@ -64,7 +76,7 @@ Enseignants :
 .. Un courriel parmi d'autres
 
 
-MarkUs 
+MarkUs
 --------------------------------------------------------------------------------
 
 - Application Web
@@ -72,20 +84,116 @@ MarkUs
 - Dépôt (versionné) des travaux étudiants
 - Annotation directe des documents par les enseignants
 
-Mise en place d'un environnement de travail
+Un projet fait par des étudiants, encadré par des étudiants
 ================================================================================
 
-Une communauté
+Un projet initié par des professeurs:
 --------------------------------------------------------------------------------
 
-Logiciel libre => présence d'une communauté autour de celui-ci :
+- Initié par Pr. Karen Reid (UofT)
+- encadré par des professeurs (UofT, UofW, ECN)
+- nouvelles fonctionnalités proposés par des professeurs
 
-- présence d'un leader, souvent l'initiateur du projet
-- des développeurs réguliers intégrés au projet
-- des personnes s'occupant du support (documentation, communication…)
-- des contributeurs plus ou moins réguliers
+=> les clients sont des profs
 
-Inscription dans un contexte pédagogique
+Mais, développé uniquement par des étudiants
 --------------------------------------------------------------------------------
 
+.. Plus de 1000 commits, 0 fait par des professeurs
+
+- Une équipe de 4 core dev (anciens étudiants)
+- Des équipes trimestrielles/semestrielles d'étudiants
+
+Comparaison par rapport à un projet OS "normal"
+
+=> Turnover des dév très important
+=> difficulté de maintenir une équipe stable
+=> projet non communitaire, mais dirigé par les demandes du client (même si
+   une certaine flexibilité de la part des professeurs encadrant)
+=> projet encadré par des personnes qui n'ont souvent jamais vu une seule
+   ligne de code de Markus
+
+Un impact sur la qualité du code ?
+--------------------------------------------------------------------------------
+
+Été 2009, revue de code par Mike Gunderloy, qui juge le code "de meilleurs
+qualités que la plupart des projets professionnels qu'il a vu
+
+=> Description du processus d'assurance qualité
+
+Impact sur l'organisation du projet ?
+--------------------------------------------------------------------------------
+
+Deux types d'encadrant:
+- le professeur, chargé de l'évaluation des élèves
+- les mentors techniques, chargé d'aider les élèves avec la partie technique.
+
+- revue de code et encadrement de la part de professionel (Mike Gunderloy -
+  Rails, Adam Goucher - QA, Karen Reid - management de projet etc)
+- Processus d'assurance qualité élaboré.
+
+Un projet canadien, importé en France
+================================================================================
+
+.. insisté sur le côté internationnal du projet
+
+
+UCOSP: Undergraduate Capstone Open Source Projects
+--------------------------------------------------------------------------------
+
+Centrale Nantes au sein du projet
+--------------------------------------------------------------------------------
+
+Un premier stage, une première prise de contact avec l'équipe canadienne...
+Puis des projets étudiants, un deuxième stage, et finalement, une première
+utilisation.
+
+Un projet fortement international: quel impact sur l'organisation ?
+--------------------------------------------------------------------------------
+
+- forte présence sur IRC
+- communication par mail
+
+Utilisation de Markus à Centrale Nantes
+================================================================================
+
+Un projet étudiant typique à Centrale Nantes
+--------------------------------------------------------------------------------
+
+- Ecriture d'un cahier des charges
+- Implémentation de fonctionnalité
+- Redaction de rapport hebdomadaire
+- Réunion hebdomadaire(?) avec l'encadrant
+- Rédaction d'un rapport final
+- Présentation de 20min
+
+Markus parmi les projets centraliens
+--------------------------------------------------------------------------------
+
+.. faire un beau schéma
+Identification des fonctionnalités => Ecriture d'un cahier des charges par les
+étudiants => Implémentation => Assurance Qualité => Intégration du code dans
+Markus
+
+**deux étapes supplémentaires**: l'identification des fonctionnalités &
+l'assurance qualite
+
+
+Conclusion
+================================================================================
+
+Listes des fonctionnalités implémentées par des étudiants ECN dans Markus:
+
+- Gestion des groupes - invitation des étudiants (Nelle Varoquaux)
+- Refonte de l'interface utilisateur (Nelle Varoquaux)
+- Framework de test (Benjamin Vialle)
+- Implémentation des sections (Nelle Varoquaux & Christian Jacques)
+- Internationalisation & traduction en français (Benjamin Vialle)
+- Ajout d'un module d'annotation tactile (Clément delafargue, Benjamin Vialle
+  etc) *en cours*
+- Ajout d'un module d'annotation de formule mathématiques (Anthony Le Jalle
+  Mickael Lumbroso) *en cours*
+- Ajout d'un module de détection de plagiat (Shion Kashimura & Benjamin
+  Thorrent) *en cours*
+- Migration à rails 3 (Benjamin Vialle) *en cours*
 
