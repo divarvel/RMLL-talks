@@ -84,8 +84,8 @@ MarkUs
 - Dépôt (versionné) des travaux étudiants
 - Annotation directe des documents par les enseignants
 
-Un projet fait par des étudiants, encadré par des étudiants
-================================================================================
+Un projet fait par des étudiants, encadré par des étudiants, utilisé par des étudiants
+=======================================================================================
 
 Un projet initié par des professeurs:
 --------------------------------------------------------------------------------
@@ -113,13 +113,23 @@ Comparaison par rapport à un projet OS "normal"
 => projet encadré par des personnes qui n'ont souvent jamais vu une seule
    ligne de code de Markus
 
+
+Un projet utilisé par des étudiants
+--------------------------------------------------------------------------------
+
+- Utilisé en 1ere et 2eme année à UofT et UofW depuis 2009
+- Utilisé en Iere et 2eme année à ECN depuis 2010
+
+=> les étudiants ont entendu parler de markus avant de dvp dessus
+=> les étudiants voient le fruit de leur travail être utiliser.
+
 Un impact sur la qualité du code ?
 --------------------------------------------------------------------------------
 
 Été 2009, revue de code par Mike Gunderloy, qui juge le code "de meilleurs
 qualités que la plupart des projets professionnels qu'il a vu
 
-=> Description du processus d'assurance qualité
+=> Description du processus d'assurance qualité avec un joli schéma
 
 Impact sur l'organisation du projet ?
 --------------------------------------------------------------------------------
@@ -131,6 +141,7 @@ Deux types d'encadrant:
 - revue de code et encadrement de la part de professionel (Mike Gunderloy -
   Rails, Adam Goucher - QA, Karen Reid - management de projet etc)
 - Processus d'assurance qualité élaboré.
+
 
 Un projet canadien, importé en France
 ================================================================================
@@ -176,8 +187,19 @@ Identification des fonctionnalités => Ecriture d'un cahier des charges par les
 Markus
 
 **deux étapes supplémentaires**: l'identification des fonctionnalités &
-l'assurance qualite
+l'assurance qualité
 
+Difficulté des étudiants
+--------------------------------------------------------------------------------
+
+- Projet complex:
+  - Rails, Ant, git etc...
+  - 15k de ligne de code
+  - présence non physique des mentors techniques
+  - Assurance qualité très strict
+
+=> Il est difficile d'avoir un projet intégré à la fin du projet, à cause de
+   l'assurance qualité
 
 Conclusion
 ================================================================================
