@@ -74,7 +74,11 @@ Workflow proche de la programmation agile (XP Programming)
 
 Démarche de développement
 --------------------------------------------------------------------------------
-?
+Structure complexe, nécessité d'impacts localisés
+
+* Lecture du code, réalisation de diagrammes décrivant la structure
+* Isolement de la partie à modifier
+* Modification, en procédant par mimétisme
 
 .. figure:: images/libreoffice_sd.png
    :width: 1200px
@@ -83,7 +87,8 @@ Démarche de développement
 Contraintes de génie logiciel
 --------------------------------------------------------------------------------
 
-?
+Phase de conception préliminaire validée par le mentor et l'encadrant.
+Modélisation rigoureuse de la fonctionnalité à ajouter.
 
 Procédure de documentation
 --------------------------------------------------------------------------------
@@ -97,6 +102,10 @@ Procédure de documentation
 
 Assurance qualité
 --------------------------------------------------------------------------------
+
+Revue de code dans le groupe, par des anciens élèves, et par Éric.
+Nécessité de produire des *patches* courts et lisibles pour faciliter la
+relecture.
 
 Cadre pédagogique
 ================================================================================
