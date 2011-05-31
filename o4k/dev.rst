@@ -8,11 +8,16 @@
 Développement du module d’annotation dans Office Impress
 ================================================================================
 
+.. présentation d'educooo ?
+
 L'École Centrale de Nantes et le Libre
 ================================================================================
 
 MarkUs
 --------------------------------------------------------------------------------
+
+.. Je ne suis pas sure qu'il soit bien de mentionner markus ici. Ne mélangeons
+   pas les choux et les carottes :]
 
 - Utilisation de MarkUs pour améliorer l'enseignement de l'informatique
 - Projets scolaires d'ajout de fonctionnalités au logiciel
@@ -36,6 +41,12 @@ Le module annotations d'Impress
 
 Dans les épisodes précédents
 --------------------------------------------------------------------------------
+.. Pourquoi diviser tout le travail ? Le module d'annotation d'impress
+   correspond à *tous* les projets étudiants de centrale nantes. Pas seulement le
+   votre. A priori, le titre de la conférence n'est pas "Dev du module
+   d'annotation dans O4k lors de l'année 2011".
+   A priori, je pense qu'il faut tout présenter comme un bloc.
+
 3 groupes d'étudiants ont ajouté plusieurs fonctionnalités depuis 2008 :
   - Ajout
   - Ajout d'une fonction Gomme
@@ -74,12 +85,15 @@ Workflow proche de la programmation agile (XP Programming)
 
 Démarche de développement
 --------------------------------------------------------------------------------
+
 Structure complexe, nécessité d'impacts localisés
 
 * Lecture du code, réalisation de diagrammes décrivant la structure
 * Isolement de la partie à modifier
 * Modification, en procédant par mimétisme
 
+.. une meilleure image est le schéma d'Olivier, repris dans notre rapport avec
+  la description des modules
 .. figure:: images/libreoffice_sd.png
    :width: 1200px
 
@@ -103,12 +117,20 @@ Procédure de documentation
 Assurance qualité
 --------------------------------------------------------------------------------
 
+.. cough, cough... Je suis très honorée, mais à mon avis, on peut enlever
+  "revu de code par des anciens élèves". J'en ai fait une seule, et elle a
+  servie à rien.
+
 Revue de code dans le groupe, par des anciens élèves, et par Éric.
 Nécessité de produire des *patches* courts et lisibles pour faciliter la
 relecture.
 
 Cadre pédagogique
 ================================================================================
+
+.. Je ne suis pas sure que cette partie soit "utile". On parle principalement
+   de développement ici. Si on garde un partie "cadre pédagogique", je pense
+   qu'il faut insister sur ce qui est propre à OOo
 
 Tuteur enseignant
 --------------------------------------------------------------------------------
