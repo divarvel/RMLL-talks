@@ -1,5 +1,4 @@
-:Info: Contribution des Étudiants de l'École Centrale de Nantes à MarkUs, un
-projet libre
+:Info: Contribution des Étudiants de l'École Centrale de Nantes à MarkUs, un projet libre
 :Auteur: Clément Delafargue <clement@delafargue.name>
 :Auteur: Nelle Varoquaux <nelle.varoquaux@gmail.com>
 :Auteur: Benjamin Vialle <benjaminvialle@gmail.com>
@@ -7,9 +6,11 @@ projet libre
 :Revision: $Revision: 0 $
 :Date: $Date: 9-14 juillet 2011 $
 
-================================================================================
+==================================================================================
 Contribution des Étudiants de l'École Centrale de Nantes à MarkUs, un projet libre
-================================================================================
+==================================================================================
+
+.. contents::
 
 L'École Centrale de Nantes et le Libre
 ================================================================================
@@ -42,6 +43,7 @@ Enseignants :
 - Difficulté d'harmonisation des facteurs de correction d'un chargé de TD/TP à
   l'autre
 - Retour des dossiers aux étudiants
+
 .. Gestion papier :
     Amoncellement de piles
    Gestion par courriels :
@@ -53,8 +55,11 @@ Enseignants :
 
 - Difficulté pour récupérer/consulter ses travaux corrigés
 - Gestion papier
+
 ..  Perte de rapports
+
 - Gestion par courriels :
+
 .. Erreurs dans le destinataire
 .. Un courriel parmi d'autres
 
