@@ -79,7 +79,7 @@ Méthodes de modélisation
 --------------------------------------------------------------------------------
 Workflow proche de la programmation agile (XP Programming)
 
-* Écriture d'un cahier des charges 
+* Écriture d'un cahier des charges
 * Retours réguliers avec le client (mentor technique)
 * itérations rapides (une semaine)
 

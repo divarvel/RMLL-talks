@@ -1,0 +1,126 @@
+\documentclass[hyperref,french,usenames,xcolor=dvipsnames]{beamer}
+ \mode<presentation>
+{
+\usepackage{beamerthemesplit}
+\usetheme[compress,secheader]{Madrid}
+%  \usecolortheme{orchid}
+%	\setbeamercolor{alerted text}{fg=red!65!black}
+  \setbeamercovered{transparent}
+}
+
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{graphicx}
+%\usepackage{epsfig}
+\usepackage{xspace}
+\usepackage{stmaryrd}
+%\usepackage{soul}
+\usepackage[utf8]{inputenc}
+%\usepackage[french]{algorithme}
+%\usepackage[T1]{fontenc} %pour un beau PDF sous Linux ; à retirer sous Mac
+\usepackage[french]{babel}
+
+%\usepackage{ulem}
+%\usepackage[english]{babel}
+%\usepackage{times}
+%\usepackage[utf8]{inputenc}
+%\usepackage{amssymb}
+%\usepackage{movie15}
+%\usepackage{graphicx,color}
+%\usepackage{hyperref}
+
+
+%-----------------------------------------------------------
+
+\definecolor{newcolor}{rgb}{0, 0, .90}
+\definecolor{impcolor}{rgb}{.90, 0, 0}
+\definecolor{darkergreen}{rgb}{0,0.5,0}
+\definecolor{myorange}{rgb}{0.8,0.7,0}
+\definecolor{myviolet}{rgb}{0.7,0.0,0.7}
+
+\definecolor{lightpurple}{rgb}{0.83,0.27,1}
+\definecolor{lightblue}{rgb}{0.27,0.9,0.9}
+
+
+
+%\newcommand{\texthl}[1]{{\color{blue}#1}}
+%\newcommand{\jaune}[1]{{\color{blue}#1}}
+%\newcommand{\texthlb}[1]{{\color{orange}#1}}
+%\newcommand{\orange}[1]{{\color{orange}#1}}
+%\newcommand{\verte}[1]{{\color{green}#1}}
+%\newcommand{\trad}{{\color{orange}{\bf $\leadsto$}}}
+
+%\newcommand{\textcite}[1]{{\color{lightpurple}[#1]}}
+%\newcommand{\textciten}[1]{{\color{lightpurple}#1}}
+
+\newcommand{\texthl}[1]{{\color{red}#1}}
+\newcommand{\jaune}[1]{{\color{red}#1}}
+\newcommand{\texthlb}[1]{{\color{orange}#1}}
+\newcommand{\orange}[1]{{\color{orange}#1}}
+\newcommand{\verte}[1]{{\color{green}#1}}
+\newcommand{\trad}{{\color{orange}{\bf $\leadsto$}}}
+
+\newcommand{\textcite}[1]{{\color{myviolet}[#1]}}
+\newcommand{\textciten}[1]{{\color{myviolet}#1}}
+
+\newcommand{\montilde}{$\sim$}
+
+
+\def \PH {\mathcal{PH}}
+\def \PHb {\overline{\PH}}
+\def \Hits {\mathcal{H}}
+\def \GRN {\mathcal{G}}
+\newcommand{\hitp}[2]{\mbox{$#1\rightarrow#2$}}
+\newcommand{\hitb}[2]{\mbox{$#1\Rsh#2$}}
+\newcommand{\hits}[3]{\mbox{$#1\xrightarrow{#3}#2$}}
+\newcommand{\hitpath}[4]{\mbox{$#2\xrightarrow{#1}^*#3\Rsh#4$}}
+\newcommand{\hit}[3]{\mbox{$#1\rightarrow#2\Rsh#3$}}
+
+\title[REX MarkUs]%
+{Contribution des Etudiants de l'Ecole Centrale de Nantes à Markus, un projet
+libre.}
+
+%\subtitle{Applications aux réseaux de Petri temporels et aux automates
+%  temporisés}
+
+\author[M. \textsc{Magnin}, G. \textsc{Moreau}, N. \textsc{Varoquaux}, B. \textsc{Vialle}]%
+{Morgan \textsc{Magnin}, Guillaume \textsc{Moreau}, Nelle \textsc{Varoquaux} et Benjamin \textsc{Vialle}
+}
+\institute[ECN]{
+\structure{
+École Centrale de Nantes}
+}
+
+\date[14/07/2011]{Rencontres Mondiales du Logiciel Libre - 14/07/11}
+
+%\date[] % (optional)
+%{}
+
+\subject{Rencontres Mondiales du Logiciel Libre - 14/07/11}
+
+\AtBeginSection[] % Do nothing for \section*
+{
+\frame<beamer>
+	{
+	\frametitle{Sommaire}
+	\tableofcontents[current]
+	}
+}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\section*{L'Ecole Centrale de Nantes et le Libre}
+
+\subsection*{L'école Centrale de Nantes}
+
+
+%\bibliography{biblio}
+
+http://eat-tice.ec-nantes.fr/wp-content/uploads/2011/06/magnin-moreau-QPES2011.pdf
+
+%\bibliographystyle{alpha}
+
+\end{document}
