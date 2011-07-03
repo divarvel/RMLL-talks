@@ -1,5 +1,5 @@
-%\documentclass[svgnames,dvipsnames,usenames]{beamer}		        % version standard
-\documentclass[svgnames,dvipsnames,usenames,handout]{beamer}        % version imprimable pour assistance
+\documentclass[svgnames,dvipsnames,usenames]{beamer}		        % version standard
+%\documentclass[svgnames,dvipsnames,usenames,handout]{beamer}        % version imprimable pour assistance
 %\documentclass[svgnames,dvipsnames,usenames,notes=show]{beamer}    % version imprimable avec notes d’orateur
 %\documentclass[svgnames,dvipsnames,usenames,notes=only]{beamer}    % version imprimable avec notes d’orateur
 
@@ -75,24 +75,32 @@
 
 \frame{
   \frametitle{En parallèle, un besoin...}
-  {\bf Comment gérer et évaluer efficacement les travaux des étudiants en
+  
+  \begin{block}{\bf Comment gérer et évaluer efficacement les travaux des étudiants en
   TP/Projet ?}
-  \begin{itemize}[<+->]
-    \item Enseignants
-    \begin{itemize}
-      \item Gros volume de soumissions à traiter (plusieurs centaines par TP)
-      \item Problématique d'harmonisation des notes entre groupes et correcteur
-      \item Retour des corrections aux étudiants
-    \end{itemize}
-    \item Etudiants
-    \begin{itemize}
-      \item Comment récupérer les TP corrigés ?
-    \end{itemize}
-  \end{itemize}
+	  Plusieurs acteurs :
+ 	 \begin{itemize}[<+->]
+ 	   \item Chargé d'enseignement
+  	  \begin{itemize}
+  	    \item Gros volume de soumissions à traiter (plusieurs centaines par TP)
+   	    \item Problématique d'harmonisation des notes entre groupes et correcteur
+  	    \item Retour des corrections aux étudiants
+  	  \end{itemize}
+ 	   \item Étudiants
+    	\begin{itemize}
+      		\item Comment récupérer les TP corrigés ?
+    	\end{itemize}
+    	\item Correcteurs
+    	\begin{itemize}
+    		\item Sur quels critères évaluer ?
+    		\item S'assurer de récupérer tous les travaux
+    	\end{itemize}
+  	\end{itemize}
+  \end{block}
 }
 
 \frame{
-  \frametitle{Le workflow actuel}
+  \frametitle{Le déroulement actuel}
   \includegraphics[scale=0.50]{images/WF-projet-avant.png}
   \begin{center}
   \end{center}
@@ -101,48 +109,50 @@
 
 \frame{
   \frametitle{Markus, un outil de correction en ligne de travaux étudiant}
-  \begin{itemize}[<+->]
-    \item Application Web
-    \item Destiné à l'évaluation de projet informatique
-    \item Dépôt versionné des travaux des étudiants
-  \end{itemize}
+  \begin{block}{MarkUs ? Mark us !}
+  MarkUs est :
+  	\begin{itemize}[<+->]
+    	\item Application \textbf{Web}
+   		\item Destiné à l'évaluation de projet informatique
+    	\item Dépôt \textbf{versionné} des travaux des étudiants
+    	\item \textbf{Annotation directe} des documents par les enseignants
+    	\item Diminution du \textbf{temps} de correction
+  	\end{itemize}
+  \end{block}
 }
 
 
 \section{Markus à l'École Centrale de Nantes}
-\frame{
-  \begin{itemize}[<+->]
-    \item 4 développeurs principaux
-    \item Équipe trimestrielle d'étudiant
-  \end{itemize}
 
-  \begin{itemize}[<+->]
-    \item \textit{Turnover} des developpeurs très importante
-    \item Difficulté pour maintenir une équipe stable qui comprenne la
-    totalité du code
-    \item Projet non communautaire, dirigé par les demandes des clients
-    et les projets étudiants
-  \end{itemize}
+\frame{
+  \begin{block}{Du c\^oté de MarkUs}
+  Karen Reid, enseignante à l'Université de Toronto, responsable de l'équipe
+  	\begin{itemize}[<+->]
+    	\item 4 développeurs principaux
+    	\item Équipe trimestrielle d'étudiants (Canadiens et Français)
+    	\item \textit{Turnover} des developpeurs très important
+    	\item Difficulté pour maintenir une équipe stable qui comprenne la
+    		  totalité du code
+    	\item Projet non communautaire, dirigé par les demandes des clients
+    		  et les projets étudiants
+  	\end{itemize}
+  \end{block}
 }
 
 \frame{
-
-  \frametitle{La nécessité d'un mentor technique}
-
-  }
-
-\frame{
   \frametitle{Un projet étudiant type à Centrale Nantes}
-
-  \begin{itemize}[<+->]
-    \item Écriture d'un cahier des charges
-    \item Implémentation de(s) fonctionnalité(s)
-    \item Redaction de rapport hebdomadaire
-    \item Réunion hebdomadaire avec l'encadrant
-    \item Réunion hebdomadaire avec le mentor technique
-    \item Rédaction d'un rapport final
-    \item Présentation de 20min
-  \end{itemize}
+	\begin{block}
+	Un projet complet :
+  		\begin{itemize}[<+->]
+    		\item Écriture d'un cahier des charges
+    		\item Implémentation de(s) fonctionnalité(s)
+    		\item Redaction de rapports hebdomadaires
+    		\item Réunions hebdomadaires avec l'encadrant
+    		\item Réunions hebdomadaires avec le mentor technique
+    		\item Rédaction d'un rapport final
+    		\item Présentation de 20min
+  		\end{itemize}
+  	\end{block}
 }
 
 
@@ -169,6 +179,25 @@
 }
 
 \frame{
+  \frametitle{Lien avec l'École Centrale de Nantes}
+  
+  \begin{block}{R\^ole du mentor technique}
+  La nécessité d'un mentor technique, attribué à un groupe d'étudiant :
+  	\begin{itemize}[<+->]
+  		\item Il conna\^it le code de l'application contrairement au tuteur École
+  		\item Il est à m\^eme de guider les étudiants :
+  			\begin{itemize}
+  				\item bonnes pratiques
+  				\item en cas de problème
+  				\item sur le processus d'Assurance Qualité
+  				\item rediriger vers d'autres développeurs du projet
+  			\end{itemize}
+  		\item Il participe à l'évaluation des étudiants
+  	\end{itemize}
+  \end{block}
+  }
+
+\frame{
   \frametitle{Un projet étudiant type sur Markus}
   \begin{center}
   \includegraphics[scale=0.50]{images/markus-projet-etudiant_04.png}
@@ -176,15 +205,51 @@
 }
 
 
-\section{QA}
+\section{Assurance Qualité}
  
 \frame{
   \frametitle{Assurance Qualité et suivi du code}
   
-  \begin{block}{}
+  \begin{block}{Review Board}
+  	Outil de « revue par les pairs », Review Board permet de :
+    \begin{itemize}
+    	\item Voir le code modifié entre un patch soumis et une branche
+    	\item Laisser des commentaires sur le code ou des images
+    	\item Tenir informé les autres développeurs sur le code qui sera prochainement intégré
+    	\item Avoir un code validé par l'équipe de développement avant intégration
+    \end{itemize}
   \end{block}
+  }
+  
+\frame{
+  \frametitle{Review Board}
+  \begin{center}
+  	\includegraphics[scale=0.4]{images/ReviewBoard.png}
+  \end{center}
 }
 
+\frame{
+  \frametitle{Tests unitaires et fonctionnels}
+  
+  \begin{block}{Code testé à 80\%}
+  Des test unitaires et fonctionnels permettent aux étudiants de valider leur code\\
+  Un outil est mis en place pour qu'ils puissent vérifier que leur code est correctement testé : les couvertures de tests.
+  \end{block}
+  }
+  
+\frame{
+  \frametitle{Couverture des tests}
+  \begin{center}
+  	\includegraphics[scale=0.25]{images/rcov_1.png}
+  \end{center}
+}
+
+\frame{
+  \frametitle{Couverture des tests}
+  \begin{center}
+  	\includegraphics[scale=0.25]{images/rcov_2.png}
+  \end{center}
+}
 
 \frame{
   \frametitle{Un projet étudiant type sur Markus}
@@ -195,18 +260,19 @@
 
 \frame{
   \frametitle{Difficultés rencontrées par les étudiants}
-  \begin{itemize}[<+->]
-    \item Projet complex:
-    \begin{itemize}
+  
+  \begin{block}{}
+  Projet complexe:
+    \begin{itemize}[<+->]
       \item Rails, Ant, Git \dots
       \item 15~000 de ligne de code
       \item Présence non physique des mentors techniques
       \item Processus d'Assurance Qualité très strict
     \end{itemize}
-  \end{itemize}
+  \end{block}
   
   \begin{alertblock}{}
-    Il est difficile d'avoir un patch intégré à la fin du projet
+    Il est difficile d'avoir un patch intégré à la branche principale de MarkUs à la fin du projet
   \end{alertblock}
 }
 
