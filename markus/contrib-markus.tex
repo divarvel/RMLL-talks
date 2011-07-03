@@ -1,5 +1,5 @@
-\documentclass[svgnames,dvipsnames,usenames]{beamer}		        % version standard
-%\documentclass[svgnames,dvipsnames,usenames,handout]{beamer}        % version imprimable pour assistance
+%\documentclass[svgnames,dvipsnames,usenames]{beamer}		        % version standard
+\documentclass[svgnames,dvipsnames,usenames,handout]{beamer}        % version imprimable pour assistance
 %\documentclass[svgnames,dvipsnames,usenames,notes=show]{beamer}    % version imprimable avec notes d’orateur
 %\documentclass[svgnames,dvipsnames,usenames,notes=only]{beamer}    % version imprimable avec notes d’orateur
 
@@ -43,30 +43,33 @@
 
 \frame{\titlepage}
 
-
 \frame{\frametitle{Présentation}\tableofcontents} 
 
-\section{Introduction}
-
-\section*{L'Ecole Centrale de Nantes et le Libre}
+\section{L'Ecole Centrale de Nantes et le Libre}
 
 \frame
 {
-  \frametitle{Centrale Nantes}
+  \frametitle{École Centrale de Nantes}
 
   \begin{block}{École d'ingénieur généraliste}
-    \begin{itemize}
-      \item Compétences scientifiques et techniques
-      \item Compétences humaines
+  Accessible principalement après les classes préparatoires, elle développe :
+    \begin{itemize}[<+->]
+      \item des compétences scientifiques et techniques
+      \item des compétences humaines :
       \begin{itemize}
-	\item capacité à {\bf s'intégrer}
-	\item capacité à {\bf communiquer}
-	\item capacité à {\bf partager}
+	  	\item une capacité à {\bf s'intégrer}
+		\item une capacité à {\bf communiquer}
+		\item une capacité à {\bf partager}
       \end{itemize}
     \end{itemize}
   \end{block}
+  
+  \begin{block}{Enseignement}
+  	Deux ans de tronc commun, suivi d'une année de spécialisation
+  \end{block}
+  
   \begin{alertblock}{}
-    Participation d'étudiants à des projets libres
+    Participation d'étudiants de troisième année option informatique à des projets libres, pour ceux qui le souhaitent.
   \end{alertblock}
 }
 
@@ -74,7 +77,7 @@
   \frametitle{En parallèle, un besoin...}
   {\bf Comment gérer et évaluer efficacement les travaux des étudiants en
   TP/Projet ?}
-  \begin{itemize}
+  \begin{itemize}[<+->]
     \item Enseignants
     \begin{itemize}
       \item Gros volume de soumissions à traiter (plusieurs centaines par TP)
@@ -83,7 +86,7 @@
     \end{itemize}
     \item Etudiants
     \begin{itemize}
-      \item Comment récupérer les TP corrigés?
+      \item Comment récupérer les TP corrigés ?
     \end{itemize}
   \end{itemize}
 }
@@ -98,42 +101,50 @@
 
 \frame{
   \frametitle{Markus, un outil de correction en ligne de travaux étudiant}
-  \begin{itemize}
+  \begin{itemize}[<+->]
     \item Application Web
     \item Destiné à l'évaluation de projet informatique
-    \item Dépôt versionné des travaux étudiants
+    \item Dépôt versionné des travaux des étudiants
   \end{itemize}
 }
 
 
-\section{Markus à Centrale Nantes}
+\section{Markus à l'École Centrale de Nantes}
 \frame{
-  \begin{itemize}
+  \begin{itemize}[<+->]
     \item 4 développeurs principaux
-    \item Equipe trimiestrielle d'étudiant
+    \item Équipe trimestrielle d'étudiant
   \end{itemize}
 
-  \begin{itemize}
-    \item Turnover des developpeurs très important
-    \item difficulté pour maintenir une équipe stable qui comprenne la
+  \begin{itemize}[<+->]
+    \item \textit{Turnover} des developpeurs très importante
+    \item Difficulté pour maintenir une équipe stable qui comprenne la
     totalité du code
-    \item Projet non communeautaire, mais dirigé par les demandes des clients
+    \item Projet non communautaire, dirigé par les demandes des clients
     et les projets étudiants
   \end{itemize}
 }
 
 \frame{
+
+  \frametitle{La nécessité d'un mentor technique}
+
+  }
+
+\frame{
   \frametitle{Un projet étudiant type à Centrale Nantes}
 
-  \begin{itemize}
-    \item Ecriture d'un cahier des charges
-    \item Implémentation de fonctionnalité
+  \begin{itemize}[<+->]
+    \item Écriture d'un cahier des charges
+    \item Implémentation de(s) fonctionnalité(s)
     \item Redaction de rapport hebdomadaire
-    \item Réunion hebdomadaire(?) avec l'encadrant
+    \item Réunion hebdomadaire avec l'encadrant
+    \item Réunion hebdomadaire avec le mentor technique
     \item Rédaction d'un rapport final
     \item Présentation de 20min
   \end{itemize}
 }
+
 
 \frame{
 \frametitle{Un projet étudiant type sur Markus}
@@ -164,16 +175,16 @@
   \end{center}
 }
 
-%\frame{
-%  \frametitle{Un projet étudiant type sur Markus}
-%  \begin{itemize}
-%    \item Tests unitaites et fonctionnels
-%    \item Revues de code
-%  \end{itemize}
-%  \begin{block}{}
-%    Processus long
-%  \end{block}
-%}
+
+\section{QA}
+ 
+\frame{
+  \frametitle{Assurance Qualité et suivi du code}
+  
+  \begin{block}{}
+  \end{block}
+}
+
 
 \frame{
   \frametitle{Un projet étudiant type sur Markus}
@@ -183,19 +194,20 @@
 }
 
 \frame{
-  \frametitle{difficulté des étudiants}
-  \begin{itemize}
+  \frametitle{Difficultés rencontrées par les étudiants}
+  \begin{itemize}[<+->]
     \item Projet complex:
     \begin{itemize}
-      \item Rails, Ant, git etc...
-      \item 15k de ligne de code
-      \item présence non physique des mentors techniques
-      \item Assurance qualité très strict
+      \item Rails, Ant, Git \dots
+      \item 15~000 de ligne de code
+      \item Présence non physique des mentors techniques
+      \item Processus d'Assurance Qualité très strict
     \end{itemize}
   \end{itemize}
-  \begin{block}{}
-    Il est difficile d'avoir un patch intégré à la fin du projet.
-  \end{block}
+  
+  \begin{alertblock}{}
+    Il est difficile d'avoir un patch intégré à la fin du projet
+  \end{alertblock}
 }
 
 \section*{Conclusion}
@@ -204,7 +216,7 @@
   \frametitle{Conclusion}
 
   Listes des fonctionnalités implémentées par des étudiants ECN dans Markus:
-  \begin{itemize}
+  \begin{itemize}[<+->]
     \item Gestion des groupes - invitation des étudiants (Nelle Varoquaux)
     \item Refonte de l'interface utilisateur (Nelle Varoquaux)
     \item Framework de test (Benjamin Vialle)
@@ -212,17 +224,19 @@
     \item Internationalisation \& traduction en français (Benjamin Vialle)
     \item Ajout d'un module d'annotation tactile (Clément delafargue, Benjamin Vialle
 	  etc) \emph{en cours}
-    \item Ajout d'un module d'annotation de formule mathématiques (Anthony Le
+    \item Ajout d'un module d'annotation de formules mathématiques (Anthony Le
 	  Jalle \& Mickael Lumbroso) \emph{en cours}
     \item Ajout d'un module de détection de plagiat (Shion Kashimura \& Benjamin
 	  Thorrent) \emph{en cours}
-    \item Migration à rails 3 (Benjamin Vialle) \emph{en cours}
+    \item Migration à Rails 3 (Benjamin Vialle) \emph{en cours}
   \end{itemize}
 
 }
 
-%\bibliography{biblio}
 
+
+%\bibliography{biblio}
+%TODO Bibliographie
 % http://eat-tice.ec-nantes.fr/wp-content/uploads/2011/06/magnin-moreau-QPES2011.pdf
 
 %\bibliographystyle{alpha}
