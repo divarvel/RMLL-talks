@@ -66,17 +66,6 @@
 
 \newcommand{\montilde}{$\sim$}
 
-
-\def \PH {\mathcal{PH}}
-\def \PHb {\overline{\PH}}
-\def \Hits {\mathcal{H}}
-\def \GRN {\mathcal{G}}
-\newcommand{\hitp}[2]{\mbox{$#1\rightarrow#2$}}
-\newcommand{\hitb}[2]{\mbox{$#1\Rsh#2$}}
-\newcommand{\hits}[3]{\mbox{$#1\xrightarrow{#3}#2$}}
-\newcommand{\hitpath}[4]{\mbox{$#2\xrightarrow{#1}^*#3\Rsh#4$}}
-\newcommand{\hit}[3]{\mbox{$#1\rightarrow#2\Rsh#3$}}
-
 \title[REX MarkUs]%
 {Retour d’expérience sur le déploiement à Centrale Nantes d’une application web d’annotation du code des étudiants : MarkUs}
 
@@ -121,7 +110,7 @@
   \frametitle{Des besoins identifiés}
 
 \begin{alertblock}{Motivation}
-Comment gérer et évaluer efficacement les travaux rendus par les étudiants en TP/Projet ?
+Comment \textbf{gérer} et \textbf{évaluer} \textbf{efficacement} les travaux rendus par les étudiants en TP/Projet ?
 \end{alertblock}
 
 \begin{block}{Usage de MarkUs}
@@ -132,7 +121,7 @@ Comment gérer et évaluer efficacement les travaux rendus par les étudiants en
 \begin{itemize}
 \item Enseignements d'informatique (rapport et code)
 \item Promotions de plus de 350 étudiants
-\item 20 enseignants impactés
+\item Plus de 20 enseignants impactés
 \end{itemize}
 \end{itemize}
 \end{block}
@@ -144,11 +133,12 @@ Comment gérer et évaluer efficacement les travaux rendus par les étudiants en
 
 \frame
 {
-  \frametitle{Du côté des enseignants}
+  \frametitle{Limites des dispositifs traditionnels}
 
+\begin{alertblock}{Du côté des enseignants}
 \begin{itemize}
-\item Gros volume de soumissions à traiter (plusieurs centaines par TP)
-\item Difficulté d'harmonisation des facteurs de correction d'un chargé de TD/TP à l'autre
+\item Gros \textbf{volume} de soumissions à traiter (plusieurs centaines par TP)
+\item Difficulté d'\textbf{harmonisation} des facteurs de correction d'un chargé de TD/TP à l'autre
 \item Gestion papier
 \begin{itemize}
 \item Amoncellement de piles
@@ -161,18 +151,20 @@ Comment gérer et évaluer efficacement les travaux rendus par les étudiants en
 \item Lourdeurs
 \end{itemize}
 \end{itemize}
+\end{alertblock}
 }
 
 \frame
 {
-  \frametitle{Du côté des étudiants}
+  \frametitle{Limites des dispositifs traditionnels}
 
+\begin{alertblock}{Du côté des étudiants}
 \begin{itemize}
-\item Difficulté pour récupérer/consulter ses travaux corrigés
+\item Difficulté pour \textbf{récupérer/consulter} ses travaux corrigés
 \item Gestion papier
 \begin{itemize}
 \item Perte de rapports
-\item Partage de la copie avec son binôme ?
+\item \textbf{Partage} de la copie avec son binôme ?
 \end{itemize}
 \item Gestion par courriels
 \begin{itemize}
@@ -180,6 +172,7 @@ Comment gérer et évaluer efficacement les travaux rendus par les étudiants en
 \item Un courriel parmi d'autres
 \end{itemize}
 \end{itemize}
+\end{alertblock}
 }
 
 \subsection*{Centrale Nantes et le logiciel libre}
@@ -188,23 +181,54 @@ Comment gérer et évaluer efficacement les travaux rendus par les étudiants en
 {
   \frametitle{Un intérêt de longue date}
 
-\begin{itemize}
-\item En termes d'utilisation
+\begin{block}{En termes d'utilisation} 
 \begin{itemize}
 \item Incitation à utiliser GNU/Linux
 \item Promotion de OpenOffice.org, Firefox, etc.
 \end{itemize}
-\item En termes de développement
+\end{block}
+
+\begin{block}{En termes de développement}
 \begin{itemize}
 \item Logiciels pour la recherche
 \item Collaboration autour de OpenOffice.org (depuis 2008)
 \end{itemize}
-\end{itemize}
+\end{block}
 }
 
 \subsection*{MarkUs}
 
 % Quelques mots de présentation historique autour de MarkUs
+
+\frame{
+  \frametitle{MarkUs, un outil de correction en ligne de travaux étudiant}
+  \begin{block}{MarkUs ? Mark us !}
+  MarkUs est :
+  	\begin{itemize}
+    	\item Application \textbf{Web}
+   		\item Destiné à l'évaluation de projet informatique
+    	\item Dépôt \textbf{versionné} des travaux des étudiants
+    	\item \textbf{Annotation directe} des documents par les enseignants
+    	\item Diminution du \textbf{temps} de correction
+  	\end{itemize}
+  \end{block}
+}
+
+\frame{
+  \frametitle{Organisation autour de MarkUs}
+  \begin{block}{L'équipe de MarkUs}
+  Karen Reid, enseignante à l'Université de Toronto, responsable de l'équipe
+  	\begin{itemize}
+    	\item 4 développeurs principaux
+    	\item Équipe trimestrielle d'étudiants (Canadiens et Français)
+    	\item \textit{Turnover} rapide des développeurs
+    	\item Difficulté pour maintenir une équipe stable qui comprenne la
+    		  totalité du code
+    	\item Projet non communautaire, dirigé par les demandes des clients
+    		  et les projets étudiants
+  	\end{itemize}
+  \end{block}
+}
 
 \section*{Impact sur l'enseignement et l'apprentissage}
 
@@ -212,13 +236,111 @@ Comment gérer et évaluer efficacement les travaux rendus par les étudiants en
 
 \subsection*{Avantages pour les enseignants}
 
+\frame{
+  \frametitle{Pourquoi MarkUs séduit les enseignants}
+\begin{itemize}
+\item Gestion de \textbf{gros volumes} (promotions de 370 étudiants) 
+\item Gestion \textbf{centralisée} des documents 
+\item \textbf{Diminution du temps} de correction (environ 50\%)
+\item \textbf{Dématérialisation} 
+\item Accès \textbf{nomade}
+\end{itemize}
+}
+
 \subsection*{Avantages pour les étudiants}
+
+\frame{
+  \frametitle{Pourquoi MarkUs séduit les étudiants}
+\begin{itemize}
+\item Une \textbf{unique} plate-forme de soumission et de correction
+\item Accès \textbf{permanent} aux anciens travaux annotés par les enseignants
+\item Amélioration du \textbf{délai} d'obtention de la correction
+\end{itemize}
+}
 
 \subsection*{Démonstration}
 
 \section*{Environnement technique}
 
-\subsection*{Déploiement à Centrale Nantes}
+\frame{
+  \frametitle{Autour de MarkUs}
+    \begin{block}{Modalités pratiques}
+  	\begin{itemize}
+    	\item Écrit en Ruby, avec Ruby on Rails
+   	\item Documents sauvegardés via Subversion
+    	\item Accès via l'application web
+	\item Utilisateurs avancés : accès CLI via une API REST
+  	\end{itemize}
+  \end{block}
+}
+
+\subsection*{Utilisation à Centrale Nantes}
+
+\frame{
+  \frametitle{Du côté de Centrale Nantes}
+  \begin{block}{Des projets étudiants contribuant au développement}
+  	\begin{itemize}
+    	\item 4 projets, 12 étudiants
+   	\item Depuis janvier 2010
+    	\item Cf. intervention RMLL du 11 juillet
+  	\end{itemize}
+  \end{block}
+}
+
+\frame{
+  \frametitle{Du côté de Centrale Nantes}
+  \begin{block}{Déploiement du logiciel pour les cours d'informatique}
+  	\begin{itemize}
+    	\item Depuis septembre 2010 
+	\item Interconnecté avec \textbf{LDAP} 
+    	\item Utilisé en 1ère et 2e année :
+		  \begin{itemize}
+			\item 370 et 340 étudiants impactés
+			\item 21 enseignants concernés
+	  	\end{itemize}		
+	\item Enseignements d'\textbf{informatique} : 
+	  	\begin{itemize}
+    			\item Algorithmique
+			\item C 
+			\item Java
+	  	\end{itemize}		
+  	\end{itemize}
+  \end{block}
+}
+
+\frame{
+  \frametitle{Les effets bénéfiques de MarkUs}
+  \begin{block}{Côté étudiants :}
+  	\begin{itemize}
+    	\item Effet pédagogique du \textbf{respect des dates limites} 
+	\item Chaque \textbf{individu} accède à la correction du travail de son groupe 
+	\item \textbf{Consultation accrue} des corrections laissées par les enseignants
+  	\end{itemize} 
+  \end{block}
+}
+
+\frame{
+  \frametitle{Les effets bénéfiques de MarkUs}
+  \begin{block}{Côté enseignants :}
+  	\begin{itemize}
+	\item Meilleure gestion \textbf{logistique} 
+	\item Une première \textbf{uniformisation} des critères de correction
+	\item Aspect \textbf{incitatif} de la correction
+  	\end{itemize} 
+  \end{block}
+}
+
+\frame{
+  \frametitle{Quelques leçons empiriques}
+  	\begin{block}{Recommandations techniques et organisationnelles}
+	\begin{itemize}
+	\item Attention à la \textbf{charge} du serveur lors de la conversion des documents .pdf 
+	\item Assurer un \textbf{accompagnement} minimal des enseignants 
+	\item Rôle du responsable de matière, sorte de \textbf{chef d'orchestre} de l'utilisation de la plate-forme 
+  	\end{itemize} 
+  \end{block}
+}
+
 
 \subsection*{Contributions passées et à venir}
 
@@ -230,23 +352,53 @@ Comment gérer et évaluer efficacement les travaux rendus par les étudiants en
 {
   \frametitle{Synthèse}
 
+\begin{alertblock}{Objectif}
+Comment améliorer la procédure d'évaluation des TP/projets d'étudiants ?
+\end{alertblock}
+
+\begin{block}{Usage de MarkUs}
+
 \begin{itemize}
-\item Constitution de cercles vertueux
-\begin{itemize}
-\item Incitation à utiliser GNU/Linux
-\item Promotion de OpenOffice.org, Firefox, etc.
+\item Logiciel \textbf{libre} 
+\item Annotation du \textbf{code}, des \textbf{.pdf} et des \textbf{images} 
+\item Facilité de prise en main
+\item Seul coût : installation et maintenance 
+\item Vers la création de \textbf{cercles vertueux} : utilisateurs $\rightarrow$ contributeurs $\rightarrow$ mentors
 \end{itemize}
-\item En termes de développement
-\begin{itemize}
-\item Logiciels pour la recherche
-\item Collaboration autour de OpenOffice.org (depuis 2008)
-\end{itemize}
-\end{itemize}
+\end{block}
 }
 
 \subsection*{Perspectives}
 
-\subsection*{Contacts}
+\frame{
+  \frametitle{Améliorations à venir}
+  
+  \begin{block}{Vers un élargissement de l'utilisation de MarkUs}
+  	\begin{itemize}
+	\item Analyse plus fine des effets du dispositif pédagogique
+	\item Module d'\textbf{annotation tactile} 
+	\item Élargissement à d'autres matières
+	\item Intégration à un \textbf{ENT} ? 
+	\end{itemize}
+\end{block}
+}
+
+\subsection*{Références}
+
+\frame{
+  \frametitle{Plus d'informations}
+  
+\begin{block}{Liens et contacts}
+\begin{itemize}
+\item Site du projet : \url{http://markusproject.org}
+\item Essayer le logiciel en ligne : \url{http://markusproject.org/admin-demo}
+\item Sources : \url{https://github.com/MarkUsProject/Markus}
+\item Blog EAT-TICE de l'Ecole Centrale de Nantes : \url{http://eat-tice.ec-nantes.fr}
+\item Chan IRC : \#markus sur irc.freenode.net
+\item Mailing list : \url{markus-dev@cs.toronto.edu}
+\end{itemize}
+\end{block}
+}
 
 %\bibliography{biblio}
 %\bibliographystyle{alpha}
