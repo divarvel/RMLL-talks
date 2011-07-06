@@ -1,0 +1,141 @@
+\documentclass[hyperref,french,usenames,xcolor=dvipsnames]{beamer}
+ \mode<presentation>
+{
+\usepackage{beamerthemesplit}
+\usetheme[compress,secheader]{Madrid}
+%  \usecolortheme{orchid}
+%	\setbeamercolor{alerted text}{fg=red!65!black}
+  \setbeamercovered{transparent}
+}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{graphicx}
+%\usepackage{epsfig}
+\usepackage{xspace}
+\usepackage{stmaryrd}
+%\usepackage{soul}
+\usepackage[utf8]{inputenc}
+%\usepackage[french]{algorithme}
+%\usepackage[T1]{fontenc} %pour un beau PDF sous Linux ; à retirer sous Mac
+\usepackage[french]{babel}
+
+%\usepackage{ulem}
+%\usepackage[english]{babel}
+%\usepackage{times}
+%\usepackage[utf8]{inputenc}
+%\usepackage{amssymb}
+%\usepackage{movie15}
+%\usepackage{graphicx,color}
+%\usepackage{hyperref}
+
+
+%-----------------------------------------------------------
+
+\definecolor{newcolor}{rgb}{0, 0, .90}
+\definecolor{impcolor}{rgb}{.90, 0, 0}
+\definecolor{darkergreen}{rgb}{0,0.5,0}
+\definecolor{myorange}{rgb}{0.8,0.7,0}
+\definecolor{myviolet}{rgb}{0.7,0.0,0.7}
+
+\definecolor{lightpurple}{rgb}{0.83,0.27,1}
+\definecolor{lightblue}{rgb}{0.27,0.9,0.9}
+
+
+
+%\newcommand{\texthl}[1]{{\color{blue}#1}}
+%\newcommand{\jaune}[1]{{\color{blue}#1}}
+%\newcommand{\texthlb}[1]{{\color{orange}#1}}
+%\newcommand{\orange}[1]{{\color{orange}#1}}
+%\newcommand{\verte}[1]{{\color{green}#1}}
+%\newcommand{\trad}{{\color{orange}{\bf $\leadsto$}}}
+
+%\newcommand{\textcite}[1]{{\color{lightpurple}[#1]}}
+%\newcommand{\textciten}[1]{{\color{lightpurple}#1}}
+
+\newcommand{\texthl}[1]{{\color{red}#1}}
+\newcommand{\jaune}[1]{{\color{red}#1}}
+\newcommand{\texthlb}[1]{{\color{orange}#1}}
+\newcommand{\orange}[1]{{\color{orange}#1}}
+\newcommand{\verte}[1]{{\color{green}#1}}
+\newcommand{\trad}{{\color{orange}{\bf $\leadsto$}}}
+
+\newcommand{\textcite}[1]{{\color{myviolet}[#1]}}
+\newcommand{\textciten}[1]{{\color{myviolet}#1}}
+
+\newcommand{\montilde}{$\sim$}
+
+
+\title[OOo Edu]%
+{Le cercle vertueux de la participation d'étudiants à des projets libres}
+
+\author[C. \textsc{Delafargue}, M. \textsc{Magnin}, N. \textsc{Varoquaux}, B. \textsc{Vialle}]%
+{Clément \textsc{Delafargue}, Morgan \textsc{Magnin}, Nelle \textsc{Varoquaux} et Benjamin \textsc{Vialle}
+}
+\institute[ECN]{
+\structure{
+École Centrale de Nantes}
+}
+
+\date[12/07/2011]{Rencontres Mondiales du Logiciel Libre - 12/07/11}
+
+%\date[] % (optional)
+%{}
+
+\subject{Rencontres Mondiales du Logiciel Libre - 12/07/11}
+
+\AtBeginSection[] % Do nothing for \section*
+{
+\frame<beamer>
+	{
+	\frametitle{Sommaire}
+	\tableofcontents[current]
+	}
+}
+
+\begin{document}
+
+\frame{\titlepage}
+
+% La proposition est d'axer la présentation du plus pédagogique au plus technique
+% Faisant ainsi le lien avec la seconde présentation, orientée "technique"/"contribution"
+
+\section{Introduction}
+
+\frame
+{
+  \frametitle{Motivations}
+
+\begin{alertblock}{Objectif}
+Comment aider les étudiants à acquérir les \textbf{compétences} nécessaires pour le milieu professionnel et \textbf{évaluer} \textbf{efficacement} les travaux rendus par les étudiants en TP/Projet ?
+\end{alertblock}
+
+\begin{block}{Pédagogie par projet}
+Autonomie et initiative
+\end{block}
+
+\begin{alertblock}{Objectif}
+Comment susciter l'\textbf{adhésion} des étudiants ? 
+\end{alertblock}
+
+\begin{block}{Faire sens}
+Des projets répondants à des \textbf{besoins} ressentis par les élèves et/ou \textbf{valorisants}
+\end{block}
+}
+
+\frame
+{
+  \frametitle{Motivations}
+
+\begin{alertblock}{Objectif}
+Comment faire bénéficier la \textbf{communauté} du travail des étudiants réalisés en projet ?
+\end{alertblock}
+
+\begin{block}{Philosophie libre}
+Différents projets, notamment une collaboration autour de OpenOffice.org et OOo4Kids depuis 2008
+\end{block}
+}
+
+%À développer... 
+
+\end{document}
