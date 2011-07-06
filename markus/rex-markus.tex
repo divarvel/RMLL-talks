@@ -7,7 +7,6 @@
 %	\setbeamercolor{alerted text}{fg=red!65!black}
   \setbeamercovered{transparent}
 }
-
 \usepackage{amsthm}
 \usepackage{amsfonts}
 \usepackage{amsmath}
@@ -103,7 +102,7 @@
 % La proposition est d'axer la présentation du plus pédagogique au plus technique
 % Faisant ainsi le lien avec la seconde présentation, orientée "technique"/"contribution"
 
-\section*{Introduction}
+\section{Introduction}
 
 \frame
 {
@@ -127,7 +126,7 @@ Comment \textbf{gérer} et \textbf{évaluer} \textbf{efficacement} les travaux r
 \end{block}
 }
 
-\section*{Contexte}
+\section{Contexte}
 
 \subsection*{Motivation}
 
@@ -230,7 +229,87 @@ Comment \textbf{gérer} et \textbf{évaluer} \textbf{efficacement} les travaux r
   \end{block}
 }
 
-\section*{Impact sur l'enseignement et l'apprentissage}
+\frame{
+  \frametitle{Quelques fonctionnalités}
+
+  \begin{block}{Amélioration de l'enseignement (correcteur)}  
+    	Possibilité d'\textbf{annoter}
+	\begin{itemize}
+    	\item Code source (avec coloration syntaxique)
+	\item Images
+	\item PDF
+  	\end{itemize}
+	\vspace{-1em}
+\begin{figure}
+  \begin{center}
+  \scalebox{0.61}{
+    \includegraphics[width=\textwidth]{images/markus-annotations.png}
+  }
+      %  
+    \caption{Vue du correcteur}
+  \end{center}
+\end{figure}
+\end{block}
+}
+
+\frame{
+  \frametitle{Quelques fonctionnalités}
+
+  \begin{block}{Amélioration de l'enseignement (correcteur)}  
+    	\begin{itemize}
+    	\item Critères \textbf{fixes} d'évaluation
+	\item Annotations (code source, images et pdf) 
+	\item Plusieurs correcteurs pour une copie
+  	\end{itemize}
+	\vspace{-1em}
+\begin{figure}
+  \begin{center}
+  \scalebox{0.29}{
+    \includegraphics[width=\textwidth]{images/markus-criteres.png}
+  }
+      %  
+    \caption{Détermination de critères}
+  \end{center}
+\end{figure}
+\end{block}
+}
+
+\frame{
+  \frametitle{Quelques autres fonctionnalités}
+
+  \begin{block}{Amélioration de l'enseignement (correcteur)}  
+    	\begin{itemize}
+	\item Prise en charge de plusieurs TP, dans l'idée d'une instance de MarkUs par matière
+	\item Gestion des \textbf{échéances} avec pénalités de retard (configurables) 
+    	\item Possibilité de voir et corriger une \textbf{ancienne} version
+  	\end{itemize}
+\end{block}
+}
+
+\frame{
+  \frametitle{Quelques fonctionnalités}
+
+  \begin{block}{Amélioration de l'enseignement (élève)}  
+    	\begin{itemize}
+	\item Constitution des groupes \textbf{en fonction des TP}
+    	\item Export des commentaires
+	\item Retour amélioré et plus rapide
+	\item Possibilité de revoir les commentaires
+  	\end{itemize}
+	\vspace{-1em}
+\begin{figure}
+  \begin{center}
+  \scalebox{0.55}{
+    \includegraphics[width=\textwidth]{images/markus-commentaires.png}
+  }
+      %  
+    \caption{Vue des résultats par les étudiants}
+  \end{center}
+\end{figure}
+\end{block}
+}
+
+\section{Impact sur l'enseignement et l'apprentissage}
 
 % Cette partie pour donner un aperçu des fonctionnalités de MarkUs et leur impact sur l'enseignement
 
@@ -260,7 +339,12 @@ Comment \textbf{gérer} et \textbf{évaluer} \textbf{efficacement} les travaux r
 
 \subsection*{Démonstration}
 
-\section*{Environnement technique}
+\frame{
+  \frametitle{Démo}
+Et si nous passions à une petite illustration pratique…
+}
+
+\section{Le déploiement à Centrale Nantes}
 
 \frame{
   \frametitle{Autour de MarkUs}
@@ -344,7 +428,7 @@ Comment \textbf{gérer} et \textbf{évaluer} \textbf{efficacement} les travaux r
 
 \subsection*{Contributions passées et à venir}
 
-\section*{Conclusion}
+\section{Conclusion}
 
 \subsection*{Bilan intermédiaire}
 
