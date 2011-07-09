@@ -13,6 +13,10 @@ Développement du module d’annotation dans Office Impress
 L'École Centrale de Nantes et le Libre
 ================================================================================
 
+OrbisGis
+--------------------------------------------------------------------------------
+Collaboration Centrale Nantes/IRSTV : OrbisGis
+
 MarkUs
 --------------------------------------------------------------------------------
 
@@ -75,6 +79,16 @@ En détail
 Cadre technique
 ================================================================================
 
+Étude préliminaire
+--------------------------------------------------------------------------------
+- Environnement de développement :
+  * Compilation
+  * Git / SVN
+  * ccache/distcc
+
+- Documentation : lecture des rapports des années précédentes
+- Écriture d'un CdC
+
 Méthodes de modélisation
 --------------------------------------------------------------------------------
 Workflow proche de la programmation agile (XP Programming)
@@ -103,6 +117,21 @@ Contraintes de génie logiciel
 
 Phase de conception préliminaire validée par le mentor et l'encadrant.
 Modélisation rigoureuse de la fonctionnalité à ajouter.
+
+Conception
+--------------------------------------------------------------------------------
+- Repérer structures existantes, structures de classe, communications,
+  utilisation d'objets messages
+
+- Passage d'un mode binaire à une liste de modes (2 modes (gomme, stylo) à 3
+  modes (gomme, stylo, curseur) --> utilisation d'enums à la place de booléens
+
+Code
+--------------------------------------------------------------------------------
+Mimétisme
+grep -r 'SlideShow'
+
+//INSÉRER DES EXEMPLES DE CODE (CF RAPPORT)
 
 Procédure de documentation
 --------------------------------------------------------------------------------
