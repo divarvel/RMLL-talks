@@ -1,0 +1,14 @@
+Depuis septembre 2008, l’École Centrale de Nantes et le projet Éducation
+d’OpenOffice.org collaborent à travers la participation de plus d’une
+vingtaine d’étudiants au développement du logiciel.
+
+Ces projets se sont focalisés sur la mise en œuvre d’un module d’annotation
+dans Impress, notamment pour une utilisation avec un ordinateur tactile. Deux
+étudiants de troisième année (Benjamin Vialle et Clément Delafargue) ainsi
+qu’une élève diplômée (Nelle Varoquaux) ont travaillé à l’amélioration du
+module d’annotation d’OpenOffice.org et OpenOffice4Kids (avec Éric Bachard).
+Ils présenteront leurs travaux et plus particulièrement les aspects techniques
+et les technologies utilisées dans le développement d’OpenOffice.org. Quels
+étaient les pré-requis pour travailler sur un tel projet ? Quelles ont été les
+difficultés rencontrées ? Que reste-t-il à faire quant à l’annotation dans
+OpenOffice.org ?

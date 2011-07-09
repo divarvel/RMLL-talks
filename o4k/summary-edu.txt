@@ -1,0 +1,20 @@
+Depuis septembre 2008, l’École Centrale de Nantes [1] et le projet Éducation
+d’OpenOffice.org [2] collaborent à travers la participation de plus d’une
+vingtaine d’étudiants au développement du logiciel. Ces projets se sont
+focalisés sur la mise en oeuvre d’un module d’annotation dans Impress,
+notamment pour une utilisation avec un ordinateur tactile. L’enchaînement
+continu de ces projets étudiants a permis une amélioration itérative des
+fonctionnalités développées, du code produit et du transfert de connaissances
+entre les élèves contributeurs. Nous arrivons maintenant à la fin du cycle de
+maturation de la fonctionnalité : celle-ci, d’ores et déjà intégrée dans
+OOo4Kids [3], est prête à être soumise au code d’OpenOffice.org. Lors des RMLL
+2009 [4], nous avions présenté un instantané de cet investissement des élèves
+dans un projet d’envergure tel qu’OpenOffice.org. Nous disposons désormais
+d’un recul supplémentaire, permettant de dresser un bilan général de ce
+partenariat. Au cours de cet exposé, nous souhaitons insister sur le cadre
+technique (méthodes de modélisation, démarche de développement, contraintes de
+génie logiciel, procédure de documentation, assurance qualité) et pédagogique
+(alliance d’un tuteur enseignant de l’établissement et d’un mentor technique
+issu de l’équipe de développeurs) de l’expérience. Nous conclurons en
+insistant sur les vertus d’une telle approche, qui a eu pour effet d’instaurer
+une dynamique autour des logiciels libres au sein de notre établissement.
