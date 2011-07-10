@@ -1,11 +1,11 @@
-\documentclass[svgnames,dvipsnames,usenames]{beamer}		        % version standard
-%\documentclass[svgnames,dvipsnames,usenames,handout]{beamer}        % version imprimable pour assistance
+%\documentclass[svgnames,dvipsnames,usenames]{beamer}                   % version standard
+\documentclass[svgnames,dvipsnames,usenames,handout]{beamer}        % version imprimable pour assistance
 %\documentclass[svgnames,dvipsnames,usenames,notes=show]{beamer}    % version imprimable avec notes d’orateur
 %\documentclass[svgnames,dvipsnames,usenames,notes=only]{beamer}    % version imprimable avec notes d’orateur
 
 \usepackage[utf8]{inputenc}
 \usepackage[frenchb]{babel}
-\usepackage{graphicx}	% pour insérer des figures
+\usepackage{graphicx}   % pour insérer des figures
 \usepackage{ruby}
 \usepackage{iwona} 
 
@@ -23,13 +23,13 @@
 \date{Rencontres Mondiales du Logiciel Libre - 11/07/2011} %\today
 
 \hypersetup{
-		pdfpagemode = Fullscreen, %afficher le pdf en plein écran
-		pdfauthor = Morgan Magnin, Guillaume Moreau, Nelle Varoquaux, Benjamin Vialle.
-		pdftitle = Contribution des Étudiants de l’École Centrale de Nantes à MarkUs, un projet libre,
-		pdfsubject = MarkUs,
-		pdfkeywords = {MarkUs, Ruby, Ruby on Rails, École Centrale de Nantes, RMLL, Contribution d'étudiants à des projets libres},
-		%pdfcreator = PDFLateX,
-		%pdfproducer = PDFLaTeX,
+                pdfpagemode = Fullscreen, %afficher le pdf en plein écran
+                pdfauthor = Morgan Magnin, Guillaume Moreau, Nelle Varoquaux, Benjamin Vialle.
+                pdftitle = Contribution des Étudiants de l’École Centrale de Nantes à MarkUs, un projet libre,
+                pdfsubject = MarkUs,
+                pdfkeywords = {MarkUs, Ruby, Ruby on Rails, École Centrale de Nantes, RMLL, Contribution d'étudiants à des projets libres},
+                %pdfcreator = PDFLateX,
+                %pdfproducer = PDFLaTeX,
 }
 
 % Pour griser les items
@@ -57,15 +57,15 @@
       \item des compétences scientifiques et techniques
       \item des compétences humaines :
       \begin{itemize}
-	  	\item une capacité à {\bf s'intégrer}
-		\item une capacité à {\bf communiquer}
-		\item une capacité à {\bf partager}
+                \item une capacité à {\bf s'intégrer}
+                \item une capacité à {\bf communiquer}
+                \item une capacité à {\bf partager}
       \end{itemize}
     \end{itemize}
   \end{block}
   
   \begin{block}{Enseignement}
-  	Deux ans de tronc commun, suivi d'une année de spécialisation
+        Deux ans de tronc commun, suivi d'une année de spécialisation
   \end{block}
   
   \begin{alertblock}{}
@@ -78,24 +78,24 @@
   
   \begin{block}{\bf Comment gérer et évaluer efficacement les travaux des étudiants en
   TP/Projet ?}
-	  Plusieurs acteurs :
- 	 \begin{itemize}[<+->]
- 	   \item Chargé d'enseignement
-  	  \begin{itemize}
-  	    \item Gros volume de soumissions à traiter (plusieurs centaines par TP)
-   	    \item Problématique d'harmonisation des notes entre groupes et correcteur
-  	    \item Retour des corrections aux étudiants
-  	  \end{itemize}
- 	   \item Étudiants
-    	\begin{itemize}
-      		\item Comment récupérer les TP corrigés ?
-    	\end{itemize}
-    	\item Correcteurs
-    	\begin{itemize}
-    		\item Sur quels critères évaluer ?
-    		\item S'assurer de récupérer tous les travaux
-    	\end{itemize}
-  	\end{itemize}
+          Plusieurs acteurs :
+         \begin{itemize}[<+->]
+           \item Chargé d'enseignement
+          \begin{itemize}
+            \item Gros volume de soumissions à traiter (plusieurs centaines par TP)
+            \item Problématique d'harmonisation des notes entre groupes et correcteur
+            \item Retour des corrections aux étudiants
+          \end{itemize}
+           \item Étudiants
+        \begin{itemize}
+                \item Comment récupérer les TP corrigés ?
+        \end{itemize}
+        \item Correcteurs
+        \begin{itemize}
+                \item Sur quels critères évaluer ?
+                \item S'assurer de récupérer tous les travaux
+        \end{itemize}
+        \end{itemize}
   \end{block}
 }
 
@@ -111,13 +111,13 @@
   \frametitle{Markus, un outil de correction en ligne de travaux étudiant}
   \begin{block}{MarkUs ? Mark us !}
   MarkUs est :
-  	\begin{itemize}[<+->]
-    	\item Application \textbf{Web}
-   		\item Destiné à l'évaluation de projet informatique
-    	\item Dépôt \textbf{versionné} des travaux des étudiants
-    	\item \textbf{Annotation directe} des documents par les enseignants
-    	\item Diminution du \textbf{temps} de correction
-  	\end{itemize}
+        \begin{itemize}[<+->]
+        \item Application \textbf{Web}
+                \item Destiné à l'évaluation de projet informatique
+        \item Dépôt \textbf{versionné} des travaux des étudiants
+        \item \textbf{Annotation directe} des documents par les enseignants
+        \item Diminution du \textbf{temps} de correction
+        \end{itemize}
   \end{block}
 }
 
@@ -127,32 +127,32 @@
 \frame{
   \begin{block}{Du c\^oté de MarkUs}
   Karen Reid, enseignante à l'Université de Toronto, responsable de l'équipe
-  	\begin{itemize}[<+->]
-    	\item 4 développeurs principaux
-    	\item Équipe trimestrielle d'étudiants (Canadiens et Français)
-    	\item \textit{Turnover} des developpeurs très important
-    	\item Difficulté pour maintenir une équipe stable qui comprenne la
-    		  totalité du code
-    	\item Projet non communautaire, dirigé par les demandes des clients
-    		  et les projets étudiants
-  	\end{itemize}
+        \begin{itemize}[<+->]
+        \item 4 développeurs principaux
+        \item Équipe trimestrielle d'étudiants (Canadiens et Français)
+        \item \textit{Turnover} des developpeurs très important
+        \item Difficulté pour maintenir une équipe stable qui comprenne la
+                  totalité du code
+        \item Projet non communautaire, dirigé par les demandes des clients
+                  et les projets étudiants
+        \end{itemize}
   \end{block}
 }
 
 \frame{
   \frametitle{Un projet étudiant type à Centrale Nantes}
-	\begin{block}
-	Un projet complet :
-  		\begin{itemize}[<+->]
-    		\item Écriture d'un cahier des charges
-    		\item Implémentation de(s) fonctionnalité(s)
-    		\item Redaction de rapports hebdomadaires
-    		\item Réunions hebdomadaires avec l'encadrant
-    		\item Réunions hebdomadaires avec le mentor technique
-    		\item Rédaction d'un rapport final
-    		\item Présentation de 20min
-  		\end{itemize}
-  	\end{block}
+        \begin{block}
+        Un projet complet :
+                \begin{itemize}[<+->]
+                \item Écriture d'un cahier des charges
+                \item Implémentation de(s) fonctionnalité(s)
+                \item Redaction de rapports hebdomadaires
+                \item Réunions hebdomadaires avec l'encadrant
+                \item Réunions hebdomadaires avec le mentor technique
+                \item Rédaction d'un rapport final
+                \item Présentation de 20min
+                \end{itemize}
+        \end{block}
 }
 
 
@@ -183,17 +183,17 @@
   
   \begin{block}{R\^ole du mentor technique}
   La nécessité d'un mentor technique, attribué à un groupe d'étudiant :
-  	\begin{itemize}[<+->]
-  		\item Il conna\^it le code de l'application contrairement au tuteur École
-  		\item Il est à m\^eme de guider les étudiants :
-  			\begin{itemize}
-  				\item bonnes pratiques
-  				\item en cas de problème
-  				\item sur le processus d'Assurance Qualité
-  				\item rediriger vers d'autres développeurs du projet
-  			\end{itemize}
-  		\item Il participe à l'évaluation des étudiants
-  	\end{itemize}
+        \begin{itemize}[<+->]
+                \item Il conna\^it le code de l'application contrairement au tuteur École
+                \item Il est à m\^eme de guider les étudiants :
+                        \begin{itemize}
+                                \item bonnes pratiques
+                                \item en cas de problème
+                                \item sur le processus d'Assurance Qualité
+                                \item rediriger vers d'autres développeurs du projet
+                        \end{itemize}
+                \item Il participe à l'évaluation des étudiants
+        \end{itemize}
   \end{block}
   }
 
@@ -211,12 +211,12 @@
   \frametitle{Assurance Qualité et suivi du code}
   
   \begin{block}{Review Board}
-  	Outil de « revue par les pairs », Review Board permet de :
+        Outil de « revue par les pairs », Review Board permet de :
     \begin{itemize}
-    	\item Voir le code modifié entre un patch soumis et une branche
-    	\item Laisser des commentaires sur le code ou des images
-    	\item Tenir informé les autres développeurs sur le code qui sera prochainement intégré
-    	\item Avoir un code validé par l'équipe de développement avant intégration
+        \item Voir le code modifié entre un patch soumis et une branche
+        \item Laisser des commentaires sur le code ou des images
+        \item Tenir informé les autres développeurs sur le code qui sera prochainement intégré
+        \item Avoir un code validé par l'équipe de développement avant intégration
     \end{itemize}
   \end{block}
   }
@@ -224,7 +224,7 @@
 \frame{
   \frametitle{Review Board}
   \begin{center}
-  	\includegraphics[scale=0.4]{images/ReviewBoard.png}
+        \includegraphics[scale=0.3]{images/ReviewBoard.png}
   \end{center}
 }
 
@@ -240,14 +240,14 @@
 \frame{
   \frametitle{Couverture des tests}
   \begin{center}
-  	\includegraphics[scale=0.25]{images/rcov_1.png}
+        \includegraphics[scale=0.25]{images/rcov_1.png}
   \end{center}
 }
 
 \frame{
   \frametitle{Couverture des tests}
   \begin{center}
-  	\includegraphics[scale=0.25]{images/rcov_2.png}
+        \includegraphics[scale=0.25]{images/rcov_2.png}
   \end{center}
 }
 
@@ -277,29 +277,38 @@
 }
 
 \section*{Conclusion}
-
 \frame{
   \frametitle{Conclusion}
 
+  \begin{block}{}
   Listes des fonctionnalités implémentées par des étudiants ECN dans Markus:
-  \begin{itemize}[<+->]
-    \item Gestion des groupes - invitation des étudiants (Nelle Varoquaux)
-    \item Refonte de l'interface utilisateur (Nelle Varoquaux)
-    \item Framework de test (Benjamin Vialle)
-    \item Implémentation des sections (Nelle Varoquaux \& Christian Jacques)
-    \item Internationalisation \& traduction en français (Benjamin Vialle)
-    \item Ajout d'un module d'annotation tactile (Clément delafargue, Benjamin Vialle
-	  etc) \emph{en cours}
-    \item Ajout d'un module d'annotation de formules mathématiques (Anthony Le
-	  Jalle \& Mickael Lumbroso) \emph{en cours}
-    \item Ajout d'un module de détection de plagiat (Shion Kashimura \& Benjamin
-	  Thorrent) \emph{en cours}
-    \item Migration à Rails 3 (Benjamin Vialle) \emph{en cours}
-  \end{itemize}
+        \begin{itemize}[<+->]
+        \item Gestion des groupes - invitation des étudiants (Nelle Varoquaux)
+        \item Refonte de l'interface utilisateur (Nelle Varoquaux)
+        \item Framework de test (Benjamin Vialle)
+        \item Implémentation des sections (Nelle Varoquaux \& Christian Jacques)
+        \item Internationalisation \& traduction en français (Benjamin Vialle)
+        \end{itemize}
+  \end{block}{}
+}
+  
+\frame{
+  \frametitle{Conclusion}
+
+  \begin{block}{}
+  Listes des fonctionnalités en cours de développement par des étudiants ECN dans Markus:
+        \begin{itemize}[<+->]
+        \item Ajout d'un module d'annotation tactile (Clément Delafargue, Benjamin Vialle
+                          etc)
+        \item Ajout d'un module d'annotation de formules mathématiques (Anthony Le
+                          Jalle \& Mickael Lumbroso)
+        \item Ajout d'un module de détection de plagiat (Shion Kashimura \& Benjamin
+                          Thorrent)
+        \item Migration à Rails 3 (Benjamin Vialle)
+        \end{itemize}
+  \end{block}{}
 
 }
-
-
 
 %\bibliography{biblio}
 %TODO Bibliographie
