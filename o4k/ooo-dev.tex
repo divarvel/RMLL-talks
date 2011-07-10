@@ -1,5 +1,5 @@
-%\documentclass[handout]{beamer}
-\documentclass{beamer}
+\documentclass[handout]{beamer}
+%\documentclass{beamer}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[francais]{babel}
@@ -56,6 +56,7 @@
 		\end{itemize}
 	\end{block}
 \end{frame}
+
 \begin{frame}{OOo/OOo4Kids à Centrale Nantes}
 	\begin{block}{OOo4Kids}
 		\begin{itemize}[<+->]
@@ -91,7 +92,9 @@
     \begin{block}{Documentation}
         \begin{itemize}[<+->]
             \item Rapports des années précédentes
-            \item Wiki
+            \item Wiki OOo4Kids
+            \item Conventions de codage
+            \item Documentation Libre Office
         \end{itemize}
     \end{block}
 \end{frame}
@@ -99,8 +102,8 @@
 \begin{frame}{Travail préliminaire}
     \begin{block}{Cahier des charges}
         \begin{itemize}[<+->]
+            \item Maquettes UI
             \item Diagrammes d'état
-            \item 
         \end{itemize}
     \end{block}
 \end{frame}
@@ -109,9 +112,157 @@
     \begin{block}{Environnement de développement}
         \begin{itemize}[<+->]
             \item Compilation (dmake, ccache, distcc)
-            \item Versionnement (SVN -> Git)
+            \item Debian, Ubuntu, Gentoo
+            \item Versionnement (SVN, Hg, Git)
         \end{itemize}
     \end{block}
 \end{frame}
+
+\begin{frame}{Démarche de développement}
+    \begin{block}{Mimétisme}
+        \begin{itemize}[<+->]
+            \item Modifications minimales
+            \item Reprise des structures existantes 
+            \item Respect de la localité
+        \end{itemize}
+    \end{block}
+\end{frame}
+
+\begin{frame}{Démarche de développement}
+    \begin{block}{Pattern commando}
+        \begin{itemize}[<+->]
+            \item grep sauvage
+            \item Modifications minimales et localisées
+        \end{itemize}
+    \end{block}
+\end{frame}
+
+\begin{frame}{Démarche de développement}
+    \begin{block}{3 phases}
+        \begin{itemize}[<+->]
+            \item Logique métier
+            \item Interface utilisateur
+            \item Branchements
+        \end{itemize}
+    \end{block}
+\end{frame}
+
+\begin{frame}{Assurance Qualité}
+    \begin{block}{Documentation}
+        \begin{itemize}[<+->]
+            \item Comptes-rendus réguliers
+            \item Peu de choix à expliciter
+        \end{itemize}
+    \end{block}
+\end{frame}
+
+\begin{frame}{Assurance Qualité}
+    \begin{block}{Revue de code}
+        \begin{itemize}[<+->]
+            \item Patches courts
+            \item Revue effectuée par Éric
+            \item Pair programming = revue "à la volée"
+        \end{itemize}
+    \end{block}
+\end{frame}
+
+\begin{frame}{Assurance Qualité}
+    \begin{block}{Critères à respecter}
+        \begin{itemize}[<+->]
+            \item Compilation sans warnings
+            \item Patches cohérents
+        \end{itemize}
+    \end{block}
+\end{frame}
+
+\section{Cadre pédagogique}
+
+\begin{frame}{Cadre pédagogique}
+    \begin{block}{Encadrants}
+        \begin{itemize}[<+->]
+            \item Tuteur enseignant~: Morgan Magnin
+            \item Mentor technique~: Éric Bachard
+        \end{itemize}
+    \end{block}
+\end{frame}
+
+\begin{frame}{Cadre pédagogique}
+    \begin{block}{Anciens élèves}
+        \begin{itemize}[<+->]
+            \item Rapports
+            \item Retours d'expérience
+        \end{itemize}
+    \end{block}
+\end{frame}
+
+\begin{frame}{Cadre pédagogique}
+    \begin{block}{Communication}
+        \begin{itemize}[<+->]
+            \item Wiki
+            \item IRC
+            \item Blog
+        \end{itemize}
+    \end{block}
+\end{frame}
+
+\section{Bilan}
+\begin{frame}{Difficultés}
+    \begin{block}{Processus lourd}
+        \begin{itemize}[<+->]
+            \item Compilation difficile
+            \item Temps de compilation importants
+            \item Intégration compliquée
+        \end{itemize}
+    \end{block}
+\end{frame}
+
+\begin{frame}{Difficultés}
+    \begin{block}{Base de code de qualité inégale}
+        \begin{itemize}[<+->]
+            \item Cohérence faible
+            \item Code mal commenté
+        \end{itemize}
+    \end{block}
+\end{frame}
+
+\begin{frame}{Apports}
+    \begin{block}{Projet libre}
+        \begin{itemize}[<+->]
+            \item Code publié
+            \begin{itemize}[<+->]
+                \item Valorisation
+                \item Assurance qualité
+            \end{itemize}
+            \item Satisfaction personnelle
+            \item "Gros" projets
+        \end{itemize}
+    \end{block}
+\end{frame}
+
+\begin{frame}{Apports}
+    \begin{block}{Gros projet}
+        \begin{itemize}[<+->]
+            \item Connu, reconnu
+            \item Base de code importante
+            \item Processus stricts
+        \end{itemize}
+    \end{block}
+\end{frame}
+
+\begin{frame}{Bilan}
+    \begin{block}{Caractéristiques communes}
+        \begin{itemize}[<+->]
+            \item Petits patches
+            \item Travail important
+        \end{itemize}
+    \end{block}
+\end{frame}
+
+\begin{frame}{Bilan}
+    \begin{block}{}
+        Questions ?
+    \end{block}
+\end{frame}
+
 
 \end{document}
